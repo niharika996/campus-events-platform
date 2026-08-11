@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Use localhost for development
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://campus-events-platform.onrender.com/api';
 
 const API = axios.create({
     baseURL: API_URL,
