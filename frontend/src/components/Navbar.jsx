@@ -42,8 +42,8 @@ function Navbar() {
                     </div>
                     <div className="flex items-center space-x-4">
                         <span className="text-sm">
-                            👤 {user.name} {user.role === 'admin' && '🔑'}
-                        </span>
+    👤 {user.name} {user.role === 'admin' && '🔑'} (🔧 DEV)
+</span>
                         <button
                             onClick={handleLogout}
                             className="bg-red-500 hover:bg-red-600 px-4 py-2 rounded-md text-sm transition"
