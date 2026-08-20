@@ -42,7 +42,7 @@ function Navbar() {
                     </div>
                     <div className="flex items-center space-x-4">
                         <span className="text-sm">
-    👤 {user.name} {user.role === 'admin' && '🔑'} (🧪 TEST)
+    👤 {user.name} {user.role === 'admin' && '🔑'} (🔧 DEV)
 </span>
                         <button
                             onClick={handleLogout}
